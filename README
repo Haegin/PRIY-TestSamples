@@ -1,3 +1,1 @@
-An implementation of the Stable Marriage algorithm in Java using threads.
-
-Instead of marrying people this marries students to projects as it's something I did for university work.
+This is a set of code samples based of my StableMarriage implementation with bugs added. These are being used to test automated testing tools to determine if the automated tools can distinguish between differing degrees of similarity when detecting bugs.
