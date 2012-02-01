@@ -1,0 +1,1 @@
+By having duplicates in the random list function the student threads throw a null pointer exception when they initialise.
