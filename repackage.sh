@@ -8,7 +8,7 @@ touch messages.log
 
 # cd in to each project dir
 for dir in *; do
-    if [[ -d ${dir} ]]; then
+    if [[ ( -d "${dir}" ) && ( -e "${dir}/pom.xml" ) ]]; then
         cd "${dir}"
         echo "Building ${dir}"
         mvn package >> ../messages.log 2>> ../errors.log
